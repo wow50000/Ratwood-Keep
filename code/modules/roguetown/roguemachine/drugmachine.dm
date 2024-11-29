@@ -228,7 +228,6 @@
 	. = ..()
 	START_PROCESSING(SSroguemachine, src)
 	update_icon()
-	held_items[/obj/item/reagent_containers/hypospray/medipen/sty/snekbt] = list("PRICE" = rand(45,75),"NAME" = "snake bite")
 	held_items[/obj/item/reagent_containers/powder/spice] = list("PRICE" = rand(35,50),"NAME" = "spice")
 	held_items[/obj/item/reagent_containers/powder/ozium] = list("PRICE" = rand(17,40),"NAME" = "ozium")
 	held_items[/obj/item/reagent_containers/powder/moondust] = list("PRICE" = rand(45,70),"NAME" = "moondust")
