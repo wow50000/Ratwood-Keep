@@ -1,5 +1,5 @@
 /datum/sex_action/force_milk_tits
-	name = "Milk their tits"
+	name = "Forcibly milk tits"
 	check_same_tile = FALSE
 
 /datum/sex_action/force_milk_tits/shows_on_menu(mob/living/carbon/human/user, mob/living/carbon/human/target)
