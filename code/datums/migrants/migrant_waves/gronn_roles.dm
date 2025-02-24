@@ -253,11 +253,11 @@
 		H.mind.adjust_skillrank(/datum/skill/craft/hunting, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/cooking, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/labor/farming, 2, TRUE)
-		H.change_stat("intelligence", 3)
+		H.change_stat("intelligence", 2)
 		H.change_stat("speed", 1)
 		H.change_stat("strength", -3)
 		H.change_stat("constitution", -2)
-		H.change_stat("fortune", -1)
+		H.change_stat("fortune", 3)
 
 	H.cmode_music = 'sound/music/combat_gronn.ogg'
 
