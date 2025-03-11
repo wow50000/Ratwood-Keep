@@ -24,7 +24,7 @@
 	restricted_jobs = list(INQUISITION_ROLES)
 	weight = 80
 
-/datum/special_trait/aboriginal/on_apply(mob/living/carbon/human/character, silent)
+/datum/special_trait/curseofcain/on_apply(mob/living/carbon/human/character, silent)
 	ADD_TRAIT(character, TRAIT_NOHUNGER, "[type]")
 	ADD_TRAIT(character, TRAIT_NOBREATH, "[type]")
 	ADD_TRAIT(character, TRAIT_NOSTINK, "[type]")
