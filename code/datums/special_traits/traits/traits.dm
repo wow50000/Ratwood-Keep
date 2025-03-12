@@ -269,6 +269,19 @@
 	character.transform = character.transform.Translate(0, (0.25 * 16))
 	character.update_transform()
 
+/datum/special_trait/short
+	name = "Short"
+	greet_text = span_notice("I was born smaller than average!")
+	weight = 60
+
+/datum/special_trait/short/on_apply(mob/living/carbon/human/character)
+	character.mob_size -= 1
+	character.change_stat("strength", -2)
+	character.change_stat("speed", 2)
+	character.mind.adjust_skillrank(/datum/skill/misc/sneaking, 1, TRUE)
+	character.transform = character.transform.Scale(0.75, 0.75)
+	character.transform = character.transform.Translate(0, (-0.25 * 16))
+	character.update_transform()
 
 /datum/special_trait/atheism
 	name = "Atheist"
