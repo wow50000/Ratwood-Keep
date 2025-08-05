@@ -163,7 +163,7 @@
 	hammers_per_item = 5
 	skill_level = 1
 
-/datum/artificer_recipe/contraptionsg/mess_kit
+/datum/artificer_recipe/contraptions/mess_kit
 	name = "Mess Kit (+2 Iron)" // 3 Iron, cuz you get a pot, a pan and other things for free.
 	required_item = /obj/item/ingot/iron
 	additional_items = list(/obj/item/ingot/iron, /obj/item/ingot/iron)
@@ -174,10 +174,18 @@
 /datum/artificer_recipe/contraptions/mobilestove
 	name = "Mobile Stove (+Cog +Tin)" // capitalized to fall in line with the rest of engineering recipes T_T
 	required_item = /obj/item/ingot/bronze
-	created_item = /obj/item/mobilestove
 	additional_items = list(/obj/item/roguegear, /obj/item/ingot/tin)
+	created_item = /obj/item/mobilestove
 	hammers_per_item = 10
 	skill_level = 3
+
+/datum/artificer_recipe/contraptions/shears
+	name = "Amputation Shears (+2 Bronze)"
+	required_item = /obj/item/ingot/bronze
+	additional_items = list(/obj/item/ingot/bronze = 2)
+	created_item = /obj/item/contraption/shears
+	hammers_per_item = 7
+	skill_level = 4
 
 /datum/artificer_recipe/contraptions/metalizer
 	name = "Wood Metalizer (+1 Wooden Cog)"
