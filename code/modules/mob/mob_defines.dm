@@ -283,3 +283,9 @@
 	var/music_playing = FALSE
 	/// Tracker for amount of turfs we sprinted over, for things like bumping and charging
 	var/sprinted_tiles = 0
+
+	var/hanged = FALSE
+
+	/// Whether the mob is pixel shifted or not
+	var/is_shifted = FALSE
+	
