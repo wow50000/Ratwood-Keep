@@ -22,7 +22,8 @@
 
 	switch(classchoice)
 
-		if("Blacksmith")
+		if("Blacksmith") //1:1 with the towner class, make sure to edit that if editing this. Ratwood-Keep/code/modules/jobs/job_types/roguetown/towners/types/blacksmith.dm
+
 			neck = /obj/item/storage/belt/rogue/pouch/coins/poor
 			gloves = /obj/item/clothing/gloves/roguetown/leather
 			cloak = /obj/item/clothing/cloak/apron/blacksmith
