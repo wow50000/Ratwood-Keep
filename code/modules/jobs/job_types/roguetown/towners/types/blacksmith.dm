@@ -1,4 +1,5 @@
-/datum/subclass/blacksmith
+/datum/subclass/blacksmith // 1:1 with the refugee class, make sure to edit that if editing this. Ratwood-Keep/code/modules/jobs/job_types/roguetown/refugees/types/scavenger.dm
+
 	name = "Blacksmith"
 	tutorial = "A skilled blacksmith, able to forge useful equipment and items out of metal, \
 	only after building or finding a forge."
